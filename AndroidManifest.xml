@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="org.fazz.popularquran"
-          android:versionCode="2"
-          android:versionName="1.1">
-    <uses-sdk android:targetSdkVersion="19" android:minSdkVersion="16" />
+          android:versionCode="4"
+          android:versionName="1.3">
+    <uses-sdk android:targetSdkVersion="19" android:minSdkVersion="11" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-feature android:glEsVersion="0x00020000"></uses-feature>
 

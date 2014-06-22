@@ -31,7 +31,6 @@ public class MainActivity extends Activity {
                         id = id.substring(0, id.indexOf("?"));
                     }
                     Intent intent = new Intent(getApplicationContext(), YoutubeActivity.class);
-                    Log.d("Youtube send", id);
                     intent.putExtra("EXTRA_YOUTUBE_ID", id);
                     startActivity(intent);
                 } else {
